@@ -3,9 +3,11 @@
 	padding: 0;
 }
 body {
+	
 	background-image: linear-gradient(135deg, #ff7248 0, #ff5f50 16.67%, #ff4c55 33.33%, #ff3858 50%, #e92359 66.67%, #d40d5a 83.33%, #c1005c 100%);
 	color: white;
 	font-family: 'Space Mono', monospace;
+	position: relative;
 }
 
 
@@ -71,4 +73,15 @@ marquee{
 		font-size: 8rem;
 	}
 	
+}
+
+@media (max-height:690px) {
+	.main_eror h1 {
+		font-size: 7rem;
+	}
+}
+@media (max-height:200px) {
+	.main_eror h1 {
+		font-size: 1rem;
+	}
 }
